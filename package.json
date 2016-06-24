@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Chefly/web-storage/issues"
   },
-  "homepage": "https://github.com/Chefly/web-storage#readme"
+  "homepage": "https://github.com/Chefly/web-storage#readme",
+  "dependencies": {
+    "global": "^4.3.0"
+  }
 }
