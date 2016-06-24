@@ -1,6 +1,6 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-# web-storage
+# storage-browser
 
 Wrapper of local/session storage to persist state in the user browser
 
