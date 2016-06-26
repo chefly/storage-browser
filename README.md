@@ -12,7 +12,7 @@ $ npm install storage-browser
 
 ## API and usage
 ```js
-const storage = require('storage')
+const storage = require('storage-browser')
 const data = {...}
 
 // Store data
