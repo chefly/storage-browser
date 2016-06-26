@@ -1,8 +1,29 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm version](https://badge.fury.io/js/storage-browser.svg)](https://badge.fury.io/js/storage-browser)
 
 # storage-browser
 
 Wrapper of local/session storage to persist state in the user browser
+
+## Installation
+```
+$ npm install storage-browser
+```
+
+## API and usage
+```js
+const storage = require('storage')
+const data = {...}
+
+// Store data
+storage.saveData('key', data)
+
+// Retrieve data
+let myData = storage.getData('key')
+
+// Clean storage
+storage.reset()
+```
 
 ## License
 The MIT License (MIT)
